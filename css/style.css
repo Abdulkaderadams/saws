@@ -673,12 +673,22 @@ a:hover {
 
 #sandwiches .card-text,
 #pastas .card-text,
-#burgers .card-text {
+#burgers .card-text,
+#juices .card-text {
   font-size: x-small;
   color: #b3b3b3;
 }
 
+#juices .card-body {
+  height: 170px !important;
+}
+
+#products .card-body {
+  height: 170px !important;
+}
+
+#pastas .card-body,
 #sandwiches .card-body,
-#pastas .card-body {
-  height: 130px !important;
+#burgers .card-body {
+  height: 190px !important;
 }

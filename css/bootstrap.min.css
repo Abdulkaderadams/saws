@@ -5215,9 +5215,13 @@ input[type="button"].btn-block {
 }
 
 .card-body {
-  -webkit-box-flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure card-body takes full height */
+    position: relative; /* Ensure positioning inside relative container */
+  /* -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+  flex: 1 1 auto; */
   padding: 1.25rem;
 }
 
