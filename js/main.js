@@ -531,6 +531,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll("#sandwiches .card")
     );
     setEqualHeightAndFontSize(sandwichCards);
+    const pastaCards = Array.from(document.querySelectorAll("#pastas .card"));
+    setEqualHeightAndFontSize(pastaCards);
   });
 
   // Function to filter products based on category (unchanged)
