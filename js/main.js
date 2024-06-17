@@ -269,7 +269,7 @@ let products = {
     {
       productName: "Turkey & Cheese",
       description:
-        "Kashkaval, Smoked-Turkey, Mayo-Mustard, Iceberg, Cherry-Tomato, Cornichone.",
+        "Kashkaval, Smoked-Turkey, Mayo-Mustard, Iceberg, Tomato, Cornichone.",
       nutri: ["27", "420"],
       category: "sandwiches",
       price: "4.5",
@@ -337,7 +337,7 @@ let products = {
     {
       productName: "Tuna Pasta",
       description:
-        "Fusili-Pasta, Tuna, Carrots, Black-Olives, Corn, Cornichone, Iceberg.",
+        "Fusili-Pasta, Tuna, Carrots, Black-Olives, Corn, Cornichone, Iceberg. \n\n",
       nutri: ["29", "652"],
       category: "pastas",
       price: "7.00",
@@ -469,20 +469,24 @@ document.addEventListener("DOMContentLoaded", function () {
     // Product text
     let text = document.createElement("p");
     let divSpan = document.createElement("div");
-    let nutriFact = document.createElement("span");
+    let nutriFactProtein = document.createElement("span");
+    let nutriFactKcal = document.createElement("span");
 
     // Add classes and content
     divSpan.classList.add("text-left", "mt-auto"); // Use "mt-auto" to push divSpan to the bottom
-    nutriFact.classList.add("badge", "badge-success");
+    nutriFactProtein.classList.add("badge", "badge-success", ".nutri");
+    nutriFactKcal.classList.add("badge", "badge-success", ".nutri");
     text.classList.add("card-text", "text-left");
 
-    nutriFact.innerText =
-      "P : " + i.nutri[0] + "g" + " " + "/" + " " + i.nutri[1] + "kcal";
+    nutriFactProtein.innerText = i.nutri[0] + "g" + "\n protein";
+    nutriFactKcal.innerText = i.nutri[1] + "\n Kcal";
+    // "P : " + i.nutri[0] + "g" + " " + "/" + " " + i.nutri[1] + "kcal";
     text.innerText = i.description; // Assuming there's a description property
 
     // Append elements
     cardBody.appendChild(text);
-    divSpan.appendChild(nutriFact);
+    divSpan.appendChild(nutriFactProtein);
+    divSpan.appendChild(nutriFactKcal);
     cardBody.appendChild(divSpan);
     card.appendChild(cardBody);
 
@@ -567,3 +571,6 @@ document.addEventListener("DOMContentLoaded", function () {
     filterProducts("all");
   });
 });
+
+let adds_1 = [1, 2, 3, 4, 5, 6];
+let adds_2 = [7, 8, 9, 10, 11, 12];

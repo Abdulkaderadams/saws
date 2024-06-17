@@ -409,14 +409,14 @@ a:hover {
 }
 .site-mobile-menu .site-nav-wrap a.active,
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #007bff;
+  color: #25d366;
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
   display: block;
 }
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #007bff;
+  color: #25d366;
 }
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
   position: absolute;
@@ -691,4 +691,63 @@ a:hover {
 #sandwiches .card-body,
 #burgers .card-body {
   height: 190px !important;
+}
+
+#pastas .card-body .badge,
+#sandwiches .card-body .badge,
+#burgers .card-body .badge,
+#products .card-body .badge,
+#juices .card-body .badge {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 8px 0;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 7px;
+  background-color: #28a7467b;
+  /* border: #28a7467b 2px solid; */
+  margin-right: 10px;
+}
+
+section {
+  padding: 2rem 4%;
+}
+
+.burger-bg {
+  background-image: url("/images/Burger-banner-menu-Mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.juice-bg {
+  background-image: url("/images/Juices-banner-menu-Mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  .burger-bg {
+    background-image: url("/images/Burger-banner-menu-Web.jpg");
+  }
+  .juice-bg {
+    background-image: url("/images/Juices-banner-menu-Web.jpg");
+  }
+}
+
+.list-group {
+  border: 0;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  border: none !important;
+  color: #dee2e6 !important;
+}
+
+#adds {
+  background-image: url("/images/Story-BG.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
