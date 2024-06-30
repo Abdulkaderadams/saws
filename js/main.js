@@ -87,7 +87,7 @@ let products = {
       productName: "Salmon Sushi",
       description:
         "Rice, Carrot, Rocca, Crab, Salmon, Mango, Avocado, Edamame.",
-
+      sauce: "sauce : sweet&chilli",
       nutri: ["39", "932"],
       category: "seafood",
       price: "9.5",
@@ -97,15 +97,16 @@ let products = {
       productName: "Salmon Bowl",
       description:
         "Iceberg, Rocca, Carrot, Crab, Salmon, Mango, Avocado, Edamame.",
+      sauce: "sauce : sweet&chilli",
       nutri: ["37", "752"],
       category: "seafood",
       price: "9.00",
-
       image: "./images/JPEG-Salad/Salmon-bowl.jpg",
     },
     {
       productName: "Crispy Shrimp",
       description: "Rice, Rocca, Crab, Fried-SHrimps, Mango, Coriander.",
+      sauce: "sauce : sweet&chilli",
       nutri: ["32", "550"],
       category: "seafood",
       price: "8.5",
@@ -115,6 +116,7 @@ let products = {
     {
       productName: "Slay's Prawn",
       description: "Rocca, Cherry-Tomato, Avocado, Fetta Cheese, Shrimps.",
+      sauce: "sauce : Balsamic",
       nutri: ["23", "370"],
       category: "seafood",
       price: "8.00",
@@ -124,6 +126,7 @@ let products = {
     {
       productName: "Octo Bowl",
       description: "Iceberg, Rocca, Pomegranate, Quinoa, Octopus.",
+      sauce: "sauce : Balsamic",
       nutri: ["26", "365"],
       category: "seafood",
       price: "8.00",
@@ -132,6 +135,7 @@ let products = {
     {
       productName: "Crab Sushi",
       description: "Rice, Carrot, Rocca, Crab, Mango, Avocado.",
+      sauce: "sauce : sweet&chilli",
       nutri: ["28", "705"],
       category: "seafood",
       price: "6.00",
@@ -140,6 +144,7 @@ let products = {
     {
       productName: "Oh Crab!",
       description: "Iceberg, Carrot, Cucumber, Crab, Avocado, Orange.",
+      sauce: "sauce : Mayo-mustard",
       nutri: ["20", "425"],
       category: "seafood",
       price: "5.00",
@@ -149,6 +154,7 @@ let products = {
       productName: "Freak bowl!!!",
       description:
         "Rocca, Freekeh, pomegranate, Green-Onion, Chiken, Coriander, Walnut.",
+      sauce: "sauce : Balsamic",
       nutri: ["30", "490"],
       category: "chicken",
       price: "7.5",
@@ -159,6 +165,7 @@ let products = {
       productName: "C'zar",
       description:
         "Iceberg, Cherry-Tomato, Grilled-Chicken, Cruton, Parmesan-Cheese.",
+      sauce: "sauce : Garlic-mayo",
       nutri: ["47", "555"],
       category: "chicken",
       price: "5.5",
@@ -168,6 +175,7 @@ let products = {
       productName: "Goal Salad",
       description:
         "Iceberg, Rocca, Cherry-Tomato, Quinoa, Corn, Chicken, Pumpkin-Seeds.",
+      sauce: "sauce : Balsamic",
       nutri: ["36", "583"],
       category: "chicken",
       price: "7.5",
@@ -177,6 +185,7 @@ let products = {
       productName: "Buffy-Chicken",
       description:
         "Iceberg, Rocca, Corn, Cherry-Tomato, Dynamite-Chicken, Chips, Avocado.",
+      sauce: "sauce : sweet&chilli",
       nutri: ["37", "685"],
       category: "chicken",
       price: "6.5",
@@ -185,6 +194,7 @@ let products = {
     {
       productName: "Pop-Chicken",
       description: "Iceberg, Rocca, Corn, Cherry-Tomato, Fried-Pop-Chicken.",
+      sauce: "sauce : BBQ",
       nutri: ["22", "550"],
       category: "chicken",
       price: "5.5",
@@ -194,6 +204,7 @@ let products = {
       productName: "Beef It Up!",
       description:
         "Iceberg, Rocca, Corn, Cherry-Tomato, Pomegranate, Red-Onion, Grilled-Beef.",
+      sauce: "sauce : Herbs",
       nutri: ["40", "622"],
       category: "meat",
       price: "7.5",
@@ -202,6 +213,7 @@ let products = {
     {
       productName: "Berry Me <3",
       description: "Lolo rosso, Goat-Cheese, Cherries, Berries, Pecans.",
+      sauce: "sauce : Balsamic",
       nutri: ["8", "200"],
       category: "cheese",
       price: "8.00",
@@ -212,6 +224,7 @@ let products = {
       productName: "Say cheese :)",
       description:
         "Rocca, Bulgarian-Cheese, Strawberry, Green-Apple, Avocado, Roasted-Almond.",
+      sauce: "sauce : Balsamic",
       nutri: ["15", "365"],
       category: "cheese",
       price: "5.5",
@@ -221,6 +234,7 @@ let products = {
       productName: "Rocka N Roll",
       description:
         "Rocca, Cherry-Tomato, Pomegranate, Raisins, Grilled-Halloumi, Walnuts.",
+      sauce: "sauce : Balsamic",
       nutri: ["8", "445"],
       category: "cheese",
       price: "5.00",
@@ -230,6 +244,7 @@ let products = {
       productName: "Greek salad",
       description:
         "Iceberg, Rocca, Cherry-Tomato, Cucumber, Black-Olive, Pepper, Corn, Fetta-Cheese.",
+      sauce: "sauce : Lemon oil",
       nutri: ["26", "537"],
       category: "cheese",
       price: "4.5",
@@ -240,6 +255,7 @@ let products = {
       productName: "Lentil Salad",
       description:
         "Iceberg, Rocca, Lentil, Cherry-Tomato, Broccoli, Beetroots, Coriander.",
+      sauce: "sauce : Balsamic",
       nutri: ["13", "213"],
       category: "grain",
       price: "5.5",
@@ -249,6 +265,7 @@ let products = {
       productName: "Queen waa",
       description:
         "Rocca, Cherry-Tomato, Quinoa, Pomegranate, Red-Kidney, Walnuts.",
+      sauce: "sauce : Balsamic",
       nutri: ["10", "375"],
       category: "grain",
       price: "4.5",
@@ -258,6 +275,7 @@ let products = {
       productName: "ChickPeas",
       description:
         "Iceberg, Rocca, Cherry-Tomato, Pomegranate, Red-Onion, Fetta-Cheese, Chickpeas, Roasted-Almond.",
+      sauce: "sauce : Balsamic",
       nutri: ["27", "580"],
       category: "grain",
       price: "5.00",
@@ -267,6 +285,7 @@ let products = {
       productName: "Joy Salad",
       description:
         "Fava-Beans, Red-Kidney, Cherry-Tomato, Coriander, Cucumber, Green-Onion, Avocado.",
+      sauce: "sauce : Lemon Honey",
       nutri: ["57", "640"],
       category: "grain",
       price: "4.5",
@@ -276,6 +295,7 @@ let products = {
       productName: "Let's Falafel",
       description:
         "Iceberg, Rocca, Cherry-Tomato, Pickles, Mint, Radish, Fried-Falafel.",
+      sauce: "sauce : Tahini",
       nutri: ["21", "380"],
       category: "grain",
       price: "5.00",
@@ -287,6 +307,7 @@ let products = {
       productName: "Turkey & Cheese",
       description:
         "Kashkaval, Smoked-Turkey, Mayo-Mustard, Iceberg, Tomato, Cornichone.",
+      sauce: "",
       nutri: ["27", "420"],
       category: "sandwiches",
       price: "4.5",
@@ -295,6 +316,7 @@ let products = {
     {
       productName: "Pesto Halloumi",
       description: "Pesto spread, Grilled-Halloumi, Grilled-Tomato, Rocca.",
+      sauce: "",
       nutri: ["15", "425"],
       category: "sandwiches",
       price: "4.00",
@@ -303,14 +325,18 @@ let products = {
     {
       productName: "Scrambled Eggs",
       description: "Fetta cheese, Scrambled Eggs, Avocado, Rocca.",
+      sauce: "",
       nutri: ["20", "475"],
+
       category: "sandwiches",
       price: "5.00",
       image: "./images/JPEG-Subs/Eggs.jpg",
     },
     {
       productName: "Fetta Fiesta",
+      sauce: "",
       nutri: ["8", "315"],
+
       description: "Fetta-Cheese, Cucumber, Cherry-Tomato, Corn, Iceberg.",
       category: "sandwiches",
       price: "3.00",
@@ -318,8 +344,10 @@ let products = {
     },
     {
       productName: "Veggie Labneh",
-      nutri: ["10", "275"],
+
       description: "Labneh, Cucumber, Cherry-Tomato, Olives, Rocca.",
+      sauce: "",
+      nutri: ["10", "275"],
       category: "sandwiches",
       price: "2.5",
       image: "./images/JPEG-Subs/Labneh.jpg",
@@ -327,6 +355,7 @@ let products = {
     {
       productName: "Tuna Tuengo",
       description: "Tuna, Mayo-Mustard sauce, Cornichone, Corn, Iceberg.",
+      sauce: "",
       nutri: ["18", "375"],
       category: "sandwiches",
       price: "5.00",
@@ -337,6 +366,7 @@ let products = {
       productName: "Pesto Pasta",
       description:
         "Fusili-Pasta, Carrots, Brocoli, Mushrooms, Green-Pepper, Corn, Onion, Parmesan-Cheese.",
+      sauce: "sauce : Pesto",
       nutri: ["23", "796"],
       category: "pastas",
       price: "8.00",
@@ -346,6 +376,7 @@ let products = {
       productName: "Chicken Pasta",
       description:
         "Fusili-Pasta, Chicken, Yellow-Pepper, Coriander, Corn, Avocado, Cherry-Tomato.",
+      sauce: "sauce : Lemon oil",
       nutri: ["42", "753"],
       category: "pastas",
       price: "7.5",
@@ -355,6 +386,7 @@ let products = {
       productName: "Tuna Pasta",
       description:
         "Fusili-Pasta, Tuna, Carrots, Black-Olives, Corn, Cornichone, Iceberg. \n\n",
+      sauce: "sauce : Mayo-mustard",
       nutri: ["29", "652"],
       category: "pastas",
       price: "7.00",
@@ -364,6 +396,7 @@ let products = {
       productName: "Veggie Pasta",
       description:
         "Fusili-Pasta, Cherry-Tomato, Brocoli, Cucumber, Green-Pepper, Mushroom, Fetta-Cheese.",
+      sauce: "sauce : Lemon oil",
       nutri: ["33", "693"],
       category: "pastas",
       price: "6.00",
@@ -376,6 +409,7 @@ let products = {
       productName: "Beef Burger",
       description:
         "Grilled-Beef, Cheddar-Cheese, Rocca, Tartar-sauce, Grilled (Onion,Tomatoe,Mushroom).",
+      sauce: "",
       nutri: ["28", "415"],
       category: "burgers",
       price: "5.00",
@@ -385,6 +419,7 @@ let products = {
       productName: "Chicken Burger",
       description:
         "Grilled-Chicken, Avocado Cheddar-Cheese, Rocca, Iceberg, BBQ-sauce, Fries-Stix.",
+      sauce: "",
       nutri: ["30", "530"],
       category: "burgers",
       price: "4.00",
@@ -397,6 +432,7 @@ let products = {
       productName: "Green Boost",
       description:
         "Ginger, Lemon, Orange, Cucumber, Green-Apple, Basil, Honey.",
+      sauce: "",
       nutri: ["2.5", "185"],
       category: "juices",
       price: "4.5",
@@ -405,6 +441,7 @@ let products = {
     {
       productName: "Lemon Ginger",
       description: "Ginger, Lemon, Orange, Honey.",
+      sauce: "",
       nutri: ["2", "159"],
       category: "juices",
       price: "3.5",
@@ -413,6 +450,7 @@ let products = {
     {
       productName: "Orange",
       description: "Fresh Orange.",
+      sauce: "",
       nutri: ["2", "115"],
       category: "juices",
       price: "3.00",
@@ -421,6 +459,7 @@ let products = {
     {
       productName: "Carrot",
       description: "Fresh Carrots.",
+      sauce: "",
       nutri: ["2.2", "94"],
       category: "juices",
       price: "3.00",
@@ -485,6 +524,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Product text
     let text = document.createElement("p");
+    let text2 = document.createElement("strong");
     let divSpan = document.createElement("div");
     let nutriFactProtein = document.createElement("span");
     let nutriFactKcal = document.createElement("span");
@@ -494,14 +534,17 @@ document.addEventListener("DOMContentLoaded", function () {
     nutriFactProtein.classList.add("badge", "badge-success", ".nutri");
     nutriFactKcal.classList.add("badge", "badge-success", ".nutri");
     text.classList.add("card-text", "text-left");
+    text2.classList.add("card-text", "text-left");
 
     nutriFactProtein.innerText = i.nutri[0] + "g" + "\n protein";
     nutriFactKcal.innerText = i.nutri[1] + "\n Kcal";
     // "P : " + i.nutri[0] + "g" + " " + "/" + " " + i.nutri[1] + "kcal";
-    text.innerText = i.description; // Assuming there's a description property
+    text.innerHTML = i.description;
+    text2.innerText = i.sauce; // Assuming there's a description property
 
     // Append elements
     cardBody.appendChild(text);
+    cardBody.appendChild(text2);
     divSpan.appendChild(nutriFactProtein);
     divSpan.appendChild(nutriFactKcal);
     cardBody.appendChild(divSpan);

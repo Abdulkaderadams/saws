@@ -66,7 +66,7 @@ a:hover {
 }
 
 .hero {
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: 42% center;
@@ -667,9 +667,9 @@ a:hover {
   display: none;
 }
 
-#products :nth-child(n + 4) {
+/* #products :nth-child(n + 4) {
   display: none;
-}
+} */
 
 #sandwiches .card-text,
 #pastas .card-text,
@@ -679,15 +679,22 @@ a:hover {
   color: #b3b3b3;
 }
 
+#juices-sec,
+#dessert-sec {
+  height: 70vh;
+}
+
 #juices .card-body {
   height: 170px !important;
 }
 
 #products .card-body {
-  height: 170px !important;
+  height: 210px !important;
+}
+#pastas .card-body {
+  height: 190px !important;
 }
 
-#pastas .card-body,
 #sandwiches .card-body,
 #burgers .card-body {
   height: 190px !important;
