@@ -705,7 +705,7 @@ a:hover {
   color: #ffffff;
   border-radius: 50%;
   font-size: 7px;
-  background-color: #28a7467b;
+  background-color: #84ad40;
   /* border: #28a7467b 2px solid; */
   margin-right: 10px;
 }
@@ -726,12 +726,34 @@ section {
   background-position: center center;
   background-size: contain;
 }
+.dessert-bg {
+  background-image: url("/images/Bites-banner-menu-Mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
 @media (min-width: 768px) {
   .burger-bg {
     background-image: url("/images/Burger-banner-menu-Web.jpg");
   }
   .juice-bg {
     background-image: url("/images/Juices-banner-menu-Web.jpg");
+  }
+  .dessert-bg {
+    background-image: url("/images/Bites-banner-menu-Web.jpg");
+  }
+}
+
+#hero1 {
+  background-image: url("/images/Slider-berry-me-Mob.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+@media (min-width: 800px) {
+  #hero1 {
+    background-image: url("/images/Slider-berry-me.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
   }
 }
 
@@ -746,7 +768,7 @@ section {
 }
 
 #adds {
-  background-image: url("/images/Story-BG.png");
+  background-image: url("/images/Story-BG.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

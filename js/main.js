@@ -145,6 +145,15 @@ let products = {
       price: "5.00",
       image: "./images/JPEG-Salad/Oh-crab.jpg",
     },
+    {
+      productName: "Freak bowl!!!",
+      description:
+        "Rocca, Freekeh, pomegranate, Green-Onion, Chiken, Coriander, Walnut.",
+      nutri: ["30", "490"],
+      category: "chicken",
+      price: "7.5",
+      image: "./images/JPEG-Salad/freak.jpg",
+    },
 
     {
       productName: "C'zar",
@@ -189,6 +198,14 @@ let products = {
       category: "meat",
       price: "7.5",
       image: "./images/JPEG-Salad/beefitup.jpg",
+    },
+    {
+      productName: "Berry Me <3",
+      description: "Lolo rosso, Goat-Cheese, Cherries, Berries, Pecans.",
+      nutri: ["8", "200"],
+      category: "cheese",
+      price: "8.00",
+      image: "./images/JPEG-Salad/berry-me.jpg",
     },
 
     {
