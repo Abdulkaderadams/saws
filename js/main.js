@@ -539,7 +539,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nutriFactProtein.innerText = i.nutri[0] + "g" + "\n protein";
     nutriFactKcal.innerText = i.nutri[1] + "\n Kcal";
     // "P : " + i.nutri[0] + "g" + " " + "/" + " " + i.nutri[1] + "kcal";
-    text.innerHTML = i.description;
+    text.innerText = i.description;
     text2.innerText = i.sauce; // Assuming there's a description property
 
     // Append elements
