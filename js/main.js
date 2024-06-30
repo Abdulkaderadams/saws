@@ -85,8 +85,7 @@ let products = {
   data: [
     {
       productName: "Salmon Sushi",
-      description:
-        "Rice, Carrot, Rocca, Crab, Salmon, Mango, Avocado, Edamame.",
+      description: `Rice, Carrot, Rocca, Crab, Salmon, Mango, Avocado, Edamame. <br> - sauce : sweet&chilli`,
       sauce: "sauce : sweet&chilli",
       nutri: ["39", "932"],
       category: "seafood",
@@ -524,7 +523,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Product text
     let text = document.createElement("p");
-    let text2 = document.createElement("strong");
+    // let text2 = document.createElement("strong");
     let divSpan = document.createElement("div");
     let nutriFactProtein = document.createElement("span");
     let nutriFactKcal = document.createElement("span");
@@ -534,17 +533,17 @@ document.addEventListener("DOMContentLoaded", function () {
     nutriFactProtein.classList.add("badge", "badge-success", ".nutri");
     nutriFactKcal.classList.add("badge", "badge-success", ".nutri");
     text.classList.add("card-text", "text-left");
-    text2.classList.add("card-text", "text-left");
+    // text2.classList.add("card-text", "text-left");
 
     nutriFactProtein.innerText = i.nutri[0] + "g" + "\n protein";
     nutriFactKcal.innerText = i.nutri[1] + "\n Kcal";
     // "P : " + i.nutri[0] + "g" + " " + "/" + " " + i.nutri[1] + "kcal";
-    text.innerText = i.description;
-    text2.innerText = i.sauce; // Assuming there's a description property
+    text.innerHTML = `- Ingredients: ${i.description}`;
+    // text2.innerText = i.sauce; // Assuming there's a description property
 
     // Append elements
     cardBody.appendChild(text);
-    cardBody.appendChild(text2);
+    // cardBody.appendChild(text2);
     divSpan.appendChild(nutriFactProtein);
     divSpan.appendChild(nutriFactKcal);
     cardBody.appendChild(divSpan);
