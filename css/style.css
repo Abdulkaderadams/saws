@@ -102,7 +102,7 @@ a:hover {
 }
 .site-navbar .site-logo a {
   font-weight: 200;
-  color: #fff;
+  color: #770000;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -674,7 +674,8 @@ a:hover {
 #sandwiches .card-text,
 #pastas .card-text,
 #burgers .card-text,
-#juices .card-text {
+#juices .card-text,
+#bagels .card-text {
   font-size: x-small;
   color: #b3b3b3;
 }
@@ -696,12 +697,14 @@ a:hover {
 }
 
 #sandwiches .card-body,
+#bagels .card-body,
 #burgers .card-body {
   height: 200px !important;
 }
 
 #pastas .card-body .badge,
 #sandwiches .card-body .badge,
+#bagels .card-body .badge,
 #burgers .card-body .badge,
 #products .card-body .badge,
 #juices .card-body .badge {
@@ -754,13 +757,13 @@ section {
 }
 
 #hero1 {
-  background-image: url("/images/Bagels_Menu.jpg");
+  background-image: url("/images/Bagel-Mob.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 @media (min-width: 800px) {
   #hero1 {
-    background-image: url("/images/Bagels_Menu-pc.jpg");
+    background-image: url("/images/Bagel.jpg");
     background-repeat: no-repeat;
     background-position: center left;
   }

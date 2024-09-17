@@ -367,6 +367,65 @@ let products = {
       price: "5.00",
       image: "./images/JPEG-Subs/Tuna.jpg",
     },
+
+    //bagellllllllllllllssssss
+    {
+      productName: "Toasty Salmon",
+      description: "Cream-Cheese, Avocado, Smoked-Salmon, Capers.",
+
+      nutri: ["22", "395"],
+      category: "bagels",
+      price: "7.5",
+      image: "./images/JPEG-Bagle/Salmon.jpg",
+    },
+    {
+      productName: "Eggel",
+      description: "Egg, Avocado, Rocca, Cherry-Tomato, Turkey, Mayo-Mustard.",
+
+      nutri: ["25.5", "547"],
+      category: "bagels",
+      price: "6.00",
+      image: "./images/JPEG-Bagle/Eggel.jpg",
+    },
+    {
+      productName: "Rollin Mushroom",
+      description:
+        "Sweet&chilly grilled Feta-Cheese, Sauted-Mushroom, Avocado, Rocca.",
+
+      nutri: ["15", "385"],
+      category: "bagels",
+      price: "5.5",
+      image: "./images/JPEG-Bagle/Mushrooms.jpg",
+    },
+    {
+      productName: "Mozzarella Bombs!",
+      description: "Pesto, Rocca, Cherry-tomato, Mozzarella, blackseed.",
+
+      nutri: ["22", "455"],
+      category: "bagels",
+      price: "5.00",
+      image: "./images/JPEG-Bagle/Mozzarella.jpg",
+    },
+    {
+      productName: "Sweet Ring",
+      description: "Cream-Cheese, Apple, Blueberries.",
+
+      nutri: ["13", "310"],
+      category: "bagels",
+      price: "4.5",
+      image: "./images/JPEG-Bagle/Apple.jpg",
+    },
+    {
+      productName: "Oriental Bagel",
+      description:
+        "Mixed Labneh, Onion, Tomato, Olives, Rocca, Cucumber, Oregano, Blackseed.",
+
+      nutri: ["16", "335"],
+      category: "bagels",
+      price: "3.5",
+      image: "./images/JPEG-Bagle/Oriental.jpg",
+    },
+
     // pastaaaaaaaaaaaaaaaaaassssss
     {
       productName: "Pesto Pasta",
@@ -569,6 +628,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let productsContainer;
     if (i.category === "sandwiches") {
       productsContainer = document.getElementById("sandwiches");
+    } else if (i.category === "bagels") {
+      productsContainer = document.getElementById("bagels");
     } else if (i.category === "pastas") {
       productsContainer = document.getElementById("pastas");
     } else if (i.category === "burgers") {
@@ -597,6 +658,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll("#sandwiches .card")
     );
     setEqualHeightAndFontSize(sandwichCards);
+    const bagelsCards = Array.from(document.querySelectorAll("#bagels .card"));
+    setEqualHeightAndFontSize(bagelsCards);
     const pastaCards = Array.from(document.querySelectorAll("#pastas .card"));
     setEqualHeightAndFontSize(pastaCards);
   });
