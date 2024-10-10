@@ -757,13 +757,13 @@ section {
 }
 
 #hero1 {
-  background-image: url("/images/Bagel-Mob.jpg");
+  background-image: url("/images/Slider-Steakin-Mob.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 @media (min-width: 800px) {
   #hero1 {
-    background-image: url("/images/Bagel.jpg");
+    background-image: url("/images/Slider-Steakin.jpg");
     background-repeat: no-repeat;
     background-position: center left;
   }

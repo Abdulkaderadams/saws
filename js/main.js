@@ -206,6 +206,16 @@ let products = {
       image: "./images/JPEG-Salad/Popchicken.jpg",
     },
     {
+      productName: "Steakin 💔",
+      description:
+        "Lollo rosso, Pepper, Broccoli, Mushroom, Red onion, Terkiyaki beef, Cashew, Sesame.  <br> - sauce : Mesauce",
+      sauce: "sauce : Mesauce",
+      nutri: ["48", "693"],
+      category: "meat",
+      price: "9.00",
+      image: "./images/JPEG-Salad/Steakin_W.jpg",
+    },
+    {
       productName: "Beef It Up!",
       description:
         "Iceberg, Rocca, Corn, Cherry-Tomato, Pomegranate, Red-Onion, Grilled-Beef.  <br> - sauce : Herbs",
