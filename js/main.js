@@ -652,9 +652,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (productsContainer) {
       productsContainer.appendChild(card);
-    } else {
-      console.error("Element with id 'products' or 'sandwiches' not found.");
     }
+    // } else {
+    //   console.error("Element with id 'products' or 'sandwiches' not found.");
+    // }
   }
 
   // Ensure the DOM is fully loaded before adjusting heights and font sizes
